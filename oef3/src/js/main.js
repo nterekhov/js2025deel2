@@ -5,10 +5,6 @@ import '../scss/styles.scss'
 import * as bootstrap from 'bootstrap'
 
 //eigen js
-// -----------------------------------------------------
-// Mini Blog Viewer – main.js
-// -----------------------------------------------------
-
 const inputId = document.querySelector("#ex3_post_id");
 const btnLoad = document.querySelector("#ex3_btn");
 const statusEl = document.querySelector("#ex3_status");
