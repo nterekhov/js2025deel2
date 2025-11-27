@@ -8,34 +8,31 @@
 </head>
 <body>
 <div class="card shadow-sm mt-4">
-    <div class="card-header bg-primary text-white">
-        Oefening 1 - Fitness Tracker (Functions, Arrays, DOM) - ZONDER AI
+    <div class="card-header bg-secondary text-white">
+        Oefening 4 - Module Based User Cards (Modules) - MET AI
     </div>
     <div class="card-body">
         <p class="small text-muted">
-            Voeg oefeningen toe met naam en aantal minuten. Het totaal wordt
-            automatisch
-            berekend door jouw JavaScript code.
+            Gebruik ES Modules: bouw een User class, een userCard component
+            en beheer de UI via een main.js module.
         </p>
         <div class="row g-2 mb-3">
             <div class="col-md-6">
-                <input id="ex1_ex" class="form-control" placeholder="Oefening (bv. Joggen)">
+                <input id="ex4_name" class="form-control" placeholder="Naam">
             </div>
-            <div class="col-md-3">
-                <input id="ex1_min" type="number" class="form-control"
-                       placeholder="Minuten">
+            <div class="col-md-4">
+                <input id="ex4_age" type="number" class="form-control"
+                       placeholder="Leeftijd">
             </div>
-            <div class="col-md-3">
-                <button id="ex1_btn" class="btn btn-primary w-100">Voeg toe</button>
+            <div class="col-md-2">
+                <button id="ex4_btn" class="btn btn-secondary w-100">Voeg
+                    toe</button>
             </div>
         </div>
-        <div class="alert alert-info mb-3">
-            Totaal minuten: <strong id="ex1_total">0</strong>
+        <div id="ex4_status" class="alert alert-secondary mb-3">
+            Nog geen gebruikers toegevoegd.
         </div>
-        <ul id="ex1_list" class="list-group mb-3"></ul>
-        <div id="ex1_feedback" class="alert alert-secondary">
-            Nog geen oefeningen toegevoegd.
-        </div>
+        <ul id="ex4_list" class="list-group"></ul>
     </div>
 </div>
 
